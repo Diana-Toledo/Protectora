@@ -1,0 +1,11 @@
+#Para poder llamar a los ficheros sin tener que escribir la extensión.
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php 
+
+#Para cuando se entre en la carpeta se arranque main.php
+DirectoryIndex main.php
+
+#Carga tu propia página de error 404
+ErrorDocument 404 /POO-Modulo3/PHP-Mis_ejercicios/protectora/Protectora/view/404.html

@@ -1,0 +1,21 @@
+main div {
+	width: 80%;
+	padding: 20px;
+	margin: 5px auto; }
+	
+main div:nth-child( 1 ) {
+	background-color: darkgreen;
+	color: white; }
+	
+main div:nth-child( 2 ) {
+	background-color: green; }
+	
+main div:nth-child( 3 ) {
+	background-color: lightgreen; }
+
+	
+	
+	
+	
+	
+	

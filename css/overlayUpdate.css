@@ -1,0 +1,22 @@
+.overlayupdate {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f8ffa3;
+}
+
+.visible {
+	display: flex; }
+
+.formulario h3 {
+    margin: auto;
+}
+
+div.formulario div:last-child {
+    margin: 0px auto;
+}
